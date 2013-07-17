@@ -11,30 +11,34 @@ usage
 
 1. Include cal.js in your HTML:
 
-        <script src="cal.js" type="text/javascript"></script>
+```html
+<script src="cal.js" type="text/javascript"></script>
+```
 
 2. call *cal* with the id of the input element
 
-        cal.set("day");
-
+```javascript
+cal.set("day");
+```
 
 example
 =======
 
-    <html>
-    <head>
-    <title>cal.js usage sample</title>
-    <script src="cal.js" type="text/javascript"></script>
-    </head>
-        
-    <body>
-      <p>day: <input id="day" /></p>
-      <p>another day: <input id="anotherday" value="17/7/1971" /></p>
-    
-      <script>
-      cal.set("day");
-      cal.set("anotherday");
-      </script>
-    </body>
-    </html>
-    
+```html
+<html>
+<head>
+ <title>cal.js usage sample</title>
+ <script src="cal.js" type="text/javascript"></script>
+</head>
+
+<body>
+ <p>day: <input id="day" /></p>
+ <p>another day: <input id="anotherday" value="17/7/1971" /></p>
+
+ <script>
+cal.set("day");
+cal.set("anotherday");
+ </script>
+</body>
+</html>
+```
