@@ -23,15 +23,15 @@ cal.set("day");
 
 example
 =======
-
-1. cut & paste the following code and save to a file
-2. open that file in a browser and click on the input ;-)
+1. download/save cal.js
+2. cut & paste the following code and save to cal.html
+2. open cal.html in a browser and click on the input ;-)
 
 ```html
 <html>
 <head>
  <title>cal.js usage sample</title>
- <script src="https://github.com/houseofkodai/cal/raw/master/cal.js" type="text/javascript"></script>
+ <script src="cal.js" type="text/javascript"></script>
 </head>
 
 <body>
